@@ -1,3 +1,6 @@
+# 抓取猫眼电影排名前100部
+
+
 import requests  # 抓取要用
 import re        # 正则解析
 import json      # 提取的结果写入文件要用
