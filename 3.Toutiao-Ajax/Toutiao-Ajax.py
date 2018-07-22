@@ -1,4 +1,4 @@
-# 爬取美拍搜索结果——再次熟悉Ajax请求
+# 爬取头条新闻搜索结果——再次熟悉Ajax请求
 
 import requests
 from urllib.parse import urlencode
