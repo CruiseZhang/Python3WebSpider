@@ -23,7 +23,7 @@ def get_page(page):   # 步骤一，获取每次请求的结果
     params = {         # 参数字典
         'type': 'uid',
         'value': '3910838102',
-        'containerid': '1076033910838102',  # 这里很关键，几次出错，应该用第二个Ajax请求的值，1076开头那个
+        'containerid': '1076033910838102',  # 107603加上value值
         'page': page    # 这四个参数只有page对应微博第几页，是变化的，其他都是不变的
     }
     url = base_url + urlencode(params)  #  urlencode将参数转化为URL的GET请求参数
